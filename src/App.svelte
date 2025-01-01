@@ -14,8 +14,8 @@
   }
 
 async function generateFunFact() {
-    const url = `http://localhost:8000/${$language}/random/${$category}`;
-    /* ? `https://funfact-api.deno.dev/random/${$category}` */
+  /* const url = `http://localhost:8000/${$language}/random/${$category}`; */
+     const url =  `https://funfact-api.deno.dev/random/${$category}`;
     try {
       const funFact = await fetchFunFact(url);
       document.getElementById("result").innerText = funFact;
