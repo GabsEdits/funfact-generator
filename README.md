@@ -70,7 +70,7 @@ deno run -NR mod.ts
 ### Development
 
 The project is build using [Vite](https://vite.dev) and
-[Svelte](https://svelte.dev).\
+[Svelte](https://svelte.dev).
 
 Make sure you have [Deno](https://deno.com) installed.
 
