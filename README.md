@@ -1,6 +1,6 @@
 <div align="center">
 <h1>Funfact Generator</h1>
-<p>Generate random fun facts for any occasion.</p>
+<p>Generate random fun facts for any occasion, in multiple languages.</p>
 <mark>Made for Highseas.</mark>
 </div>
 
