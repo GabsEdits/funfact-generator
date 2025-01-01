@@ -6,7 +6,7 @@ app.use("*", (c, next) => {
   c.res.headers.set("Access-Control-Allow-Origin", "*");
   c.res.headers.set(
     "Access-Control-Allow-Methods",
-    "GET, POST",
+    "GET, POST, PUT, DELETE, OPTIONS",
   );
   c.res.headers.set("Access-Control-Allow-Headers", "Content-Type");
   return next();
